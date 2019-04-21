@@ -1,10 +1,6 @@
-import {Token} from './token';
-
 // (+ (* 1 4) 2 )
-export type ast = {type: string, body: astType[]};
-export type astType = {type: string, name: string, params: astType[]}
 
-function parse(tokens: Token[]): ast{
+function parse(tokens: Token[]): ast {
     let i = 0;
 
     const ast = {

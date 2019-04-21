@@ -1,6 +1,3 @@
-export type TType = 'arith' | 'parren' | 'number' | string;
-export type Token = {type: TType, value: string};
-
 function genToken(str: string): Token[]{
     const tokens: Token[] = [];
     const numReg = /[0-9\.]/

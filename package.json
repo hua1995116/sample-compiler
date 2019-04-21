@@ -2,6 +2,7 @@
   "name": "sample-compiler",
   "version": "1.0.0",
   "description": "",
+  "typings": "types/index.d.ts",
   "main": "main.ts",
   "scripts": {
     "build": "tsc ./main.ts",
